@@ -1,0 +1,79 @@
+body {
+  background-color: #f1f1f3;
+}
+.fira-sans-regular {
+  font-family: 'Fira Sans', serif;
+  font-style: normal;
+}
+header {
+  margin-bottom: 60px;
+}
+.nav-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 160px;
+}
+nav a {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: white;
+  color: #006a50;
+  border-radius: 8px;
+  padding: 15px 30px;
+  border: 1px solid #006a50;
+  font-size: 18px;
+  font-weight: 500;
+}
+#main-banner {
+  margin: 10px 60px 80px 60px;
+  padding-left: 20px;
+  width: 1280px;
+  height: 560px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 65px;
+  padding: 80px 70px;
+  border-radius: 24px;
+  background-color: #c6e4d6;
+}
+.banner .banner-greetings {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: -26px;
+}
+.banner .banner-description {
+  font-size: 56.5px;
+  font-weight: bold;
+  color: #0e0e0e;
+  line-height: auto;
+}
+.new-bd {
+  width: 455px;
+  height: 385px;
+  /* padding-right: 5px; */
+}
+.btn-explor {
+  background-color: #006a50;
+  color: #ffffff;
+  margin-top: -90px;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn-explor:hover {
+  background-color: #40739e;
+  color: #353b48;
+}
