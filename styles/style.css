@@ -349,15 +349,18 @@ main {
   padding: 0px 230px;
   margin-bottom: 32px;
 }
+.newsletter-email {
+  display: flex;
+  align-items: center;
+}
 .newsletter-email input {
   border: none;
-  width: 60%;
+  width: 50%;
   padding: 18px 40px;
   border-radius: 8px 0 0 8px;
   font-size: 16px;
   color: rgba(14, 14, 14, 0.6);
-  margin: 0;
-  display: inline;
+  margin-left: 155px;
 }
 .btn-subscribe {
   background-color: #006a50;
@@ -365,9 +368,13 @@ main {
   border-radius: 0 5px 5px 0;
   padding: 18px 40px;
   border: none;
+  cursor: pointer;
+  border-left: 0;
   font-size: 16px;
   font-weight: 600;
-  /* height: 100%; */
+}
+.btn-subscribe:hover {
+  background-color: #40739e;
 }
 .down {
   color: rgba(14, 14, 14, 0.7);
